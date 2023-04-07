@@ -3,7 +3,7 @@
 :root{
     --color-body:#2a2a2a;
     --color-heading:#eef3db;
-    --color-base:#eff0f3;
+    --color-base:#fffffe;
     --color-base2:#eaf6f8;
     --color-brand:#ffd803;
     --color-brand2:#ffd803;
@@ -17,13 +17,11 @@ body{
     font-family: var(--font-base),sans-serif;
 }
  
-ul, li{
-    color: #fffffe;
+p, ul, li{
+    color: #2a2a2a;
 }
 
-p:not(:first-of-type){
-    color: #fffffe;
-}
+
 
 h1,h2,h3,h4,h5,h6{
     /* color: var(--color-heading); */
@@ -65,10 +63,19 @@ img{
     color: #ffd803;
 }
 
+.text-brandz3{
+    color: #2a2a2a !important; 
+}
+
+.text-brandz4{
+    color:#ff8e3c;
+}
+
 .bg-base{
     /* background-color: var(--color-base2); */
-    background: rgba(2, 42, 48, 0.7);
+    /* background: rgba(2, 42, 48, 0.7); */
     /* opacity: 0.8; */
+    background-color: #eff0f3;
 }
 
 .shadow-effect{
@@ -174,6 +181,9 @@ img{
 
 /* CARD WORK */
 
+.card-custom{
+    border: 3px solid black;
+}
 
 .card-custom .card-custom-image{
     overflow: hidden;
@@ -191,7 +201,8 @@ img{
 /* CONTACT */
 
 #contact .form-control{
-    background-color: var(--color-base2);
+    /* background-color: var(--color-base2); */
+    background-color: #eff0f3;
     border-color: var(--color-base);
     color: var(--color-body);
 }
@@ -209,6 +220,7 @@ img{
 /* Footer */
 
 /* Social Icons */
+
 
 
 
