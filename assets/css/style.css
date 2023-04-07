@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,700;1,600&family=Roboto:ital,wght@1,300&display=swap');
 
 :root{
-    --color-body:#b6cbce;
+    --color-body:#2a2a2a;
     --color-heading:#eef3db;
-    --color-base:#033f47;
-    --color-base2:#022a30;
-    --color-brand:#e0f780;
-    --color-brand2:#deff58;
+    --color-base:#eff0f3;
+    --color-base2:#eaf6f8;
+    --color-brand:#ffd803;
+    --color-brand2:#ffd803;
     --sidbar-width:240px;
     --font-base: "Bai Jamjuree";
 }
@@ -16,10 +16,18 @@ body{
     color: var(--color-body);
     font-family: var(--font-base),sans-serif;
 }
+ 
+ul, li{
+    color: #fffffe;
+}
 
+p:not(:first-of-type){
+    color: #fffffe;
+}
 
 h1,h2,h3,h4,h5,h6{
-    color: var(--color-heading);
+    /* color: var(--color-heading); */
+    color: #0d0d0d;
     font-weight: 700;
 }
 
@@ -46,11 +54,15 @@ img{
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid black;
 }
 
 .text-brand{
-    color: var(--color-brand);
+    color: var(--color-body);
+}
+
+.textbrandz{
+    color: #ffd803;
 }
 
 .bg-base{
