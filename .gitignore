@@ -1,4 +1,5 @@
-assets/images/
-assets/imagescertifgal/
-*.jpg
-*.png
+# assets/images/
+# assets/imagescertifgal/
+# *.jpg
+# *.png
+
